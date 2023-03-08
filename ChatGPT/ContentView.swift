@@ -10,7 +10,7 @@ import WebKit
 
 struct ContentView: View {
     
-    // init webView
+    // init .webView 
     var webView: WKWebView = {
         let config = WKWebViewConfiguration()
         let websiteDataStore = WKWebsiteDataStore.default()

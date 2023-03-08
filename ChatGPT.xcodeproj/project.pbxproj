@@ -11,9 +11,6 @@
 		2A9F4F0629B84F7500F34B10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F4F0529B84F7500F34B10 /* ContentView.swift */; };
 		2A9F4F0829B84F7600F34B10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9F4F0729B84F7600F34B10 /* Assets.xcassets */; };
 		2A9F4F0C29B84F7600F34B10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9F4F0B29B84F7600F34B10 /* Preview Assets.xcassets */; };
-		2A9F4F1629B84F7600F34B10 /* ChatGPTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F4F1529B84F7600F34B10 /* ChatGPTTests.swift */; };
-		2A9F4F2029B84F7600F34B10 /* ChatGPTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F4F1F29B84F7600F34B10 /* ChatGPTUITests.swift */; };
-		2A9F4F2229B84F7600F34B10 /* ChatGPTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F4F2129B84F7600F34B10 /* ChatGPTUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +38,7 @@
 		2A9F4F0929B84F7600F34B10 /* ChatGPT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChatGPT.entitlements; sourceTree = "<group>"; };
 		2A9F4F0B29B84F7600F34B10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A9F4F1129B84F7600F34B10 /* ChatGPTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatGPTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A9F4F1529B84F7600F34B10 /* ChatGPTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTTests.swift; sourceTree = "<group>"; };
 		2A9F4F1B29B84F7600F34B10 /* ChatGPTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatGPTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A9F4F1F29B84F7600F34B10 /* ChatGPTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTUITests.swift; sourceTree = "<group>"; };
-		2A9F4F2129B84F7600F34B10 /* ChatGPTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				2A9F4F0229B84F7500F34B10 /* ChatGPT */,
-				2A9F4F1429B84F7600F34B10 /* ChatGPTTests */,
-				2A9F4F1E29B84F7600F34B10 /* ChatGPTUITests */,
 				2A9F4F0129B84F7500F34B10 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,23 +102,6 @@
 				2A9F4F0B29B84F7600F34B10 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		2A9F4F1429B84F7600F34B10 /* ChatGPTTests */ = {
-			isa = PBXGroup;
-			children = (
-				2A9F4F1529B84F7600F34B10 /* ChatGPTTests.swift */,
-			);
-			path = ChatGPTTests;
-			sourceTree = "<group>";
-		};
-		2A9F4F1E29B84F7600F34B10 /* ChatGPTUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2A9F4F1F29B84F7600F34B10 /* ChatGPTUITests.swift */,
-				2A9F4F2129B84F7600F34B10 /* ChatGPTUITestsLaunchTests.swift */,
-			);
-			path = ChatGPTUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A9F4F1629B84F7600F34B10 /* ChatGPTTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A9F4F2229B84F7600F34B10 /* ChatGPTUITestsLaunchTests.swift in Sources */,
-				2A9F4F2029B84F7600F34B10 /* ChatGPTUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

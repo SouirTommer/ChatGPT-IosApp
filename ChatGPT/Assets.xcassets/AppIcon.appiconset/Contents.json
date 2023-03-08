@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "icons8-chatgpt-1024.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -21,11 +22,13 @@
       "size" : "32x32"
     },
     {
+      "filename" : "icons8-chatgpt-64(@1x).png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "32x32"
     },
     {
+      "filename" : "icons8-chatgpt-128(@2x).png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "128x128"
